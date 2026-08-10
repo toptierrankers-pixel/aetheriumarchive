@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">The Aetherium Archive seal</title>
+  <defs>
+    <radialGradient id="void" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#241a12"/>
+      <stop offset="100%" stop-color="#14100c"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8c65a"/>
+      <stop offset="100%" stop-color="#a9811d"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="50" cy="50" r="48" fill="url(#void)" stroke="url(#gold)" stroke-width="1.4"/>
+  <circle cx="50" cy="50" r="41" fill="none" stroke="#c9a227" stroke-width="0.6" opacity="0.55"/>
+
+  <!-- tick marks, astrolabe ring -->
+  <g stroke="#c9a227" stroke-width="0.8" opacity="0.7">
+    <line x1="50" y1="6" x2="50" y2="11"/>
+    <line x1="50" y1="89" x2="50" y2="94"/>
+    <line x1="6" y1="50" x2="11" y2="50"/>
+    <line x1="89" y1="50" x2="94" y2="50"/>
+    <line x1="18.3" y1="18.3" x2="21.8" y2="21.8"/>
+    <line x1="78.2" y1="18.3" x2="74.7" y2="21.8"/>
+    <line x1="18.3" y1="81.7" x2="21.8" y2="78.2"/>
+    <line x1="78.2" y1="81.7" x2="74.7" y2="78.2"/>
+  </g>
+
+  <!-- unfurled scroll -->
+  <g fill="none" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 62 Q30 56 36 56 L64 56 Q70 56 70 62 Q70 68 64 68 L36 68 Q30 68 30 62 Z"/>
+    <path d="M30 62 Q26 62 26 58 Q26 54 30 54"/>
+    <path d="M70 62 Q74 62 74 66 Q74 70 70 70"/>
+    <line x1="38" y1="60" x2="62" y2="60" stroke-width="1" opacity="0.6"/>
+    <line x1="38" y1="64" x2="56" y2="64" stroke-width="1" opacity="0.6"/>
+  </g>
+
+  <!-- eight-point star / sigil above the scroll -->
+  <g transform="translate(50 38)" fill="url(#gold)">
+    <path d="M0 -16 L3.2 -3.2 L16 0 L3.2 3.2 L0 16 L-3.2 3.2 L-16 0 L-3.2 -3.2 Z"/>
+  </g>
+  <circle cx="50" cy="38" r="2.4" fill="#7a1f2b"/>
+</svg>
