@@ -135,8 +135,10 @@ nav.primary a:hover, nav.primary a[aria-current="page"]{
 
   nav.primary.open ul{
     display:flex; flex-direction:column; gap: 0;
-    position:fixed; top:76px; left:0; right:0; bottom:0; background: var(--void-2);
+    position:absolute; top:76px; left:0; right:0; height: calc(100vh - 76px);
+    background: var(--void-2);
     padding: 0.5rem 1.5rem 2rem; overflow-y:auto;
+    z-index: 60;
   }
   nav.primary.open ul li{ border-bottom: 1px solid var(--ash-line); }
   nav.primary.open ul a{
