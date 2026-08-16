@@ -101,6 +101,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://aetheriumarchive.toptierrankers.workers.dev/lore-daedric-princes.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aetheriumarchive.toptierrankers.workers.dev/lore-what-is-an-elder-scroll.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aetheriumarchive.toptierrankers.workers.dev/lore-timeline-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aetheriumarchive.toptierrankers.workers.dev/lore-races-of-tamriel.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aetheriumarchive.toptierrankers.workers.dev/lore-dragon-break.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aetheriumarchive.toptierrankers.workers.dev/contact.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
